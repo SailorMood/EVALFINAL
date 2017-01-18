@@ -1,0 +1,4 @@
+SELECT articles_id, articles.title, articles.content, articles.picture, articles.date_publish, users.firstname
+FROM articles
+INNER JOIN articles ON articles.id_users = users.id
+WHERE artiles.id = 10;
