@@ -86,7 +86,7 @@ echo '</div><br>';
 }
 if(empty($errors)){
 echo '<div class="col-md-6 col-md-offset-3">';
-echo '<div class="alert alert-danger">'.implode('<br>', $errors).'</div>';
+echo '<div class="alert alert-danger">'.implode('<br>', '$errors').'</div>';
 echo '</div><br>';
 }
 ?>
